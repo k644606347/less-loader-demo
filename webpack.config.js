@@ -3,7 +3,6 @@ module.exports = {
   // mode: 'development',
   entry: require.resolve('./main.less'),
   output: {
-    path: path.resolve('./dist/'),
     filename: 'bundle.js',
   },
   devtool: 'eval',
